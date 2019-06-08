@@ -1,0 +1,96 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #fff;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   background-size: 70px 70px;
+   background-color: #726144;
+   background-image: linear-gradient(to right, #5a4e39 50%, transparent 50%, transparent);
+   
+}
+
+.todo {
+	opacity: 0.5;
+    width: 100%;
+    background-color: white;
+    height: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+	font-size: 50px;
+	
+}
+form {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   width: 405px;
+   align-items: center;
+   margin: 60px;
+   background: #dedede;
+   padding: 15px;
+   opacity: 0.9;
+}
+
+form  * {
+   margin: 8px;
+   padding: 3px 15px;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   font-family: Roboto, sans-serif;
+}
+
+.cont_text {
+   position: relative;
+   width: 100%;
+}
+
+form > div > textarea {
+   height: 40px;
+   padding-top: 10px;
+   max-height: 50px;
+   resize: none;
+   width: 100%;
+   border-radius: 121px;
+   padding-right: 50px;
+   box-sizing: border-box;
+   line-height: 18px;
+   overflow: hidden;
+}
+
+form > div > input[type="submit"] {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    max-width: 40px;
+    text-align: center;
+    height: 40px;
+    transition: 0.5s;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    background: #3e3482;
+    color: #fff;
+    font-size: 15px;
+}
+
+.massege {
+   width: 100%;
+}
+
+.massege > p {
+    color: #000000;
+    text-align: left;
+    margin: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.massege > p > span {
+    margin-top: 10px;
+    display: block;
+}
